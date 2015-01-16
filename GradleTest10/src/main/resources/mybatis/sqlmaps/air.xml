@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.www.dao.airDao"><!-- namespace에서 interface로 정의된 DAO를 정확히 명시해주어야한다 -->
+	<select id="getAirInfo" parameterType="String" resultType="com.spring.www.VO.MypageVO"> 
+	SELECT * FROM PASSENGER_RECORD WHERE PR_PNR1 = #{PR_PNR1}   
+	</select>
+	
+	<select id="getAirInfo2" parameterType="String" resultType="com.spring.www.VO.Mypaage2VO"> 
+	SELECT * FROM PASSENGER_RECORD WHERE PR_PNR1 = #{PR_PNR1}   
+	</select>
+	
+	<!-- select id="getBookName" parameterType="string" resultType="string">
+		SELECT NAME FROM BOOKS WHERE ID = #{id}   </select-->
+</mapper> 

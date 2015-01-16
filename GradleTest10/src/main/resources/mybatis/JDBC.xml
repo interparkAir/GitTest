@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>aaa</comment>
+	<entry key="driver">oracle.jdbc.driver.OracleDriver</entry>
+	<entry key="url">jdbc:oracle:thin:@172.21.1.134:1538:AIRDB</entry>
+	<entry key="user">etour</entry>
+	<entry key="pwd">air23456</entry>
+	<entry key="maxActive">50</entry>
+	<entry key="maxIdle">30</entry>
+	<entry key="minIdle">30</entry>
+	<entry key="maxWait">5</entry>
+
+
+</properties>
